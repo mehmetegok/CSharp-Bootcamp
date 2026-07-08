@@ -25,12 +25,22 @@ namespace Class_1
             rb.motorhacmi = 1.6;
             rb.durum = 'S';
             rb.fiyat = 2000000;
+            rb.YIL = -2020;
+            rb.MARKA = "bmw";
+            rb.plaka = "34ABC123";
+            rb.muayene = 2024;
+            rb.sahip = "Murat Yücedağ";
 
             label1.Text = rb.renk;
             label2.Text = rb.hız.ToString();
             label3.Text = rb.motorhacmi.ToString();
             label4.Text = rb.durum.ToString();
             label5.Text = rb.fiyat.ToString();
+            label6.Text = rb.YIL.ToString();
+            label7.Text = rb.MARKA.ToString();
+            label8.Text = rb.plaka.ToString();
+            label9.Text = rb.muayene.ToString();
+            label10.Text = rb.sahip.ToString(); 
         }
     }
 }
